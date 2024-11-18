@@ -6,6 +6,9 @@
 	h3 {
 		@apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
 	}
+	h5 {
+		@apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+	}
 }
 
 .section-container {
@@ -18,4 +21,9 @@
 
 .section-content {
 	@apply max-w-3xl mx-auto leading-9 text-center text-grayishBlue;
+}
+
+.footer-icon:hover {
+	filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+		brightness(101%) contrast(94%);
 }
